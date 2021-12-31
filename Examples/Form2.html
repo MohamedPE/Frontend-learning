@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            font: 1em sans-serif;
+            margin-top: 23px;
+        }
+        input{
+            margin-top: 23px;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="height:550px;width:450px;overflow: hidden;">
+    <header style="height:8%;background-color: rgb(109, 74, 50);">
+        <div>
+            <h3 style="padding: 10px;margin: auto;">Sign up</h3>
+        </div>
+       
+    </header>
+    <section style="background-color: rgb(116, 21, 9);height: 82%;">
+        <div class="list" style="width: 35%;float: left;text-align: right;margin-right: 5%;">
+            <ul style="list-style-type: none;">
+                <li>First Name</li>
+                <li>Last Name</li>
+                <li>Birth Of Date</li>
+                <li>Gender</li>
+                <li>Country</li>
+                <li>E-mail</li>
+                <li>Phone</li>
+                <li>Password</li>
+                <li>Confirm Password</li>
+            </ul>
+        </div>
+        <div class="inputs" style="width: 60%;float: left;">
+            <input type="text" name="fname" placeholder="Enter First Name">
+            <input type="text" name="lname" placeholder="Enter Last Name"><br><br>
+            <select><option>Date</option><option>1</option><option>2</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option></select>
+            <select><option >Month</option><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>Jun</option><option>Jul</option><option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+            </select>
+            <select><option>Year</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option></select><br>
+            <input type="radio" name="gender">Male<input type="radio" name="gender" >Female<br><br>
+            <select>
+                <option>Country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Japan</option>
+            </select><br>
+            <input type="email" name="email" placeholder="Enter Your E-mail">
+            <input type="number" placeholder="Enter Your Phone Number">
+            <input type="password">
+            <input type="password"><br>
+            <input type="checkbox"> I Agree To The Terms Of Use
+        </div>
+    </section>
+    <footer style="height: 10%;background-color: rgb(109, 74, 50);">
+        <div style="float: right;padding: 10px;">
+            <button type="reset" style="padding: 8px;width: 100px;border: none;background-color: #f74340b4;color: white;">Cancel</button>
+            <button type="submit" style="padding: 8px;width: 100px;border: none;background-color: seagreen;color: white;">SUBMIT</button>
+        </div>
+    </footer>
+    </div>  
+</body>
+</html>

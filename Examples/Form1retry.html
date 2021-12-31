@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li
+        {
+            text-transform:uppercase;
+            letter-spacing:2px;	
+        }
+        body
+        {
+            font-family:Comic Sans MS;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(41, 38, 38);">
+    <form >
+    <div class="container" style="width: 800px;margin: auto;">
+            <fieldset style="border: double ;width: 700px;padding: 20px;height: 500px; background-color: brown;">
+                <legend style="font-size:24px; text-align:center; letter-spacing:5px">USER NAME</legend>
+        <div class="list" style="width: 30%;padding: 20px; float: left;">
+           <ul>
+            <p><li>First Name</li></p>
+            <p><li>Password</li></p>
+            <p><li>Gender</li></p>
+            <p><li>Adress</li>
+            <p style="height: 60px;"><li>D.O.B</li></p>
+            <p><li>Select Games</li></p>
+            <p><li>Military Status</li></p>
+            </ul>
+        </div>
+        <div class="form" style="width: 55%;padding: 20px; float: left;">
+                    <p><input type="text" name="name"></p>
+                    <p><input type="password" name="password"></p>
+                    <p><input type="radio" name="gender">Male<input type="radio" name="gender" >Female</p>
+                    <p style="height: 100px;"><textarea name="adress"  cols="20" rows="5"></textarea>
+                    <p><select><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>Jun</option><option>Jul</option><option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
+                    </select>
+                    <select><option>1</option><option>2</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option></select>
+                    <select><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option></select>
+                    <p><input type="checkbox" name="Hockey"> Hockey<input type="checkbox" name="Football"> Football<input type="checkbox" name="Cricket"> Cricket<input type="checkbox" name="Volleyball"> VolleyBall
+                    <p><input type="radio" name="r2"/>Married<input type="radio" name="r2"/>Unmarried
+                    <p><button type="submit">Submit</button><button type="reset">Reset</button><br><br>
+                    <input type="checkbox" name="agreed" required>I accept this agreement
+                </fieldset>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
