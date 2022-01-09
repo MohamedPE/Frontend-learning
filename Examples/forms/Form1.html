@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset style="border: double">
+        <legend style="text-align: center">USER FORM</legend>
+        <ul>
+          <li>
+            <label>FIRST NAME</label>
+            <input type="text" name="fname" />
+          </li>
+          <li>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" />
+          </li>
+          <li>
+            <label for="gender">GENDER</label>
+            <input type="radio" name="gender" value="MALE" />
+            <label for="gender">MALE</label>
+            <input type="radio" name="gender" value="FEMALE" />
+            <label for="gender">FEMAL</label>
+          </li>
+          <li>
+            <label for="adress">ADRESS</label>
+          </li>
+          <textarea name="adress" cols="30" rows="10"></textarea>
+          <li>
+            <label for="DOB">D.O.B</label>
+            <input type="date" name="BOD" />
+          </li>
+          <li>
+            <label for="games">SELECT GAMES</label>
+            <input type="checkbox" name="games" />
+            <label for="games">HOCKY</label>
+            <input type="checkbox" name="games" />
+            <label for="games">FOOTBALL</label>
+            <input type="checkbox" name="games" />
+            <label for="games">CRICKET</label>
+            <input type="checkbox" name="games" />
+            <label for="games">VOLLEYBALL</label>
+          </li>
+          <button type="submit">SUBMIT</button>
+          <button type="reset">RESET</button
+          ><br /><br />
+          <input type="checkbox" name="agreed" required />
+          <label for="agreed">I accept this agreement</label>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
+</html>
