@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #ddd;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  overflow: auto;
+}
+li {
+  background-color: #ddf;
+}
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+}
+.active {
+  background-color: rgb(49, 45, 44);
+  color: cornsilk;
+}
+li a:hover:not(.active) {
+  background-color: coral;
+  color: cornsilk;
+}
+@media screen and (max-width:1000px){
+  ul{
+    width: 100%;
+    text-align: center;
+  }
+}
